@@ -1,1 +1,8 @@
-echo "Executando comando antes da geracao da imagem"
+echo "Iniciando deploy de um EAR do JAVA"
+
+echo "Agora e a versao 1.0"
+
+wget https://github.com/imago-storm/hello-world-ear/blob/master/EnterpriseHelloWorld.ear -O /wildfly/standalone/deployments/helloworld.ear
+
+echo "Finalizando o deploy"
+echo "Good Bye!"
